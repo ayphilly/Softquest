@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    height: 900px;
+}
+.contact-form-div {  
+    
+    display: flex;
+    flex-direction: row;  
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 100%;
+    width: 100%;    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.contact-svg {
+    display: flex;
+    width: 40%;    
+     
+}
+
+.contact-svg-im {
+    opacity: .6;
+    height: 500px;
+    
+}
+
+.contact-svg {
+    width:50%;
+
+}
+.contact-form {   
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;    
+    margin-bottom: 20px;   
+    max-width: 100%;
+   
+    
+}
+.contact-form h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30px;
+}
+ label {
+     font-family: 'Montserrat';
+     font-size: 10\5px;
+     font-weight: 600;
+ }
+
+.names {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.names .first-name, .last-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.names input {
+    width: 225px;
+    height: 50px;
+    background-color: none;
+    margin-right: 50px;
+    padding: 20px;
+    
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;    
+    margin-top: 10px;
+    
+}
+
+.contact .mail, .phone-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-number {
+    margin-top: 10px;
+}
+
+.contact input {
+    width: 500px;
+    height: 50px;
+    background-color: none;
+    margin-right: 50px;
+    padding:20px;
+    
+}
+.textarea-input {
+    display: flex;
+    flex-direction: column;    
+    margin-top: 10px;
+}
+
+.big-text {
+    display: flex;
+    flex-direction: column;    
+    margin-top: 10px;
+    
+}
+
+.big-text .service-text {
+    display: flex;
+    flex-direction: column;
+
+}
+textarea {
+    background-color: transparent;
+    color: rgb(14, 14, 14);
+    border: 3px solid #000;
+    font-size: 20px;  
+    width: 500px;
+    padding: 20px;
+
+}
+input {
+    background-color: transparent;
+    color: rgb(14, 14, 14);
+    border: 3px solid #000;
+    font-size: 20px;  
+    font-family: 'Montserrat';
+}
+
+input:focus{
+    background-color:none;
+    outline-color: #000;
+    border-color: #000;
+    outline-width: 0ch;
+}
+
+.button-submit {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    text-align: center;  
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    
+}
+
+
+
+
+/*Media Responsive*/
+@media screen and (min-width : 320px)
+and (max-width : 1000px) {
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        height: 900px;
+        align-content: center;
+    }
+    .contact-form-div {  
+        
+        display: flex;
+        flex-direction: column;  
+        margin-bottom: 20px;
+        text-align: left;
+        max-width: 100%;
+        width: 100%;   
+        
+        margin:0 auto;
+        
+    }
+    .contact-svg {
+        display: flex;
+        width: 60%;    
+         
+    }
+    
+    .contact-svg-im {
+        opacity: .6;
+        height: 600px;
+        width: 700px;
+        
+    }
+    
+    .contact-svg {
+        width:50%;
+    
+    }
+    .contact-form {   
+        margin-top:-100px;
+        display: flex;
+        flex-direction: column;              
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
+    form {
+        
+        width:350px ;
+    }
+    
+    .contact-form h3 {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 30px;
+    }
+     label {
+         font-family: 'Montserrat';
+         font-size: 10\5px;
+         font-weight: 600;
+     }
+    
+    .names {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .names .first-name, .last-name {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .names input {
+        width: 150px;
+        height: 50px;
+        background-color: none;
+        margin-right: 50px;
+        padding: 20px;
+        
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;    
+        margin-top: 10px;
+        
+    }
+    
+    .contact .mail, .phone-number {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .phone-number {
+        margin-top: 10px;
+    }
+    
+    .contact input {
+        width: 350px;
+        height: 50px;
+        background-color: none;
+        margin-right: 50px;
+        padding:20px;
+        
+    }
+    .textarea-input {
+        display: flex;
+        flex-direction: column;    
+        margin-top: 10px;
+    }
+    
+    .big-text {
+        display: flex;
+        flex-direction: column;    
+        margin-top: 10px;
+        
+    }
+    
+    .big-text .service-text {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    textarea {
+        background-color: transparent;
+        color: rgb(14, 14, 14);
+        border: 3px solid #000;
+        font-size: 20px;  
+        width: 350px;
+        padding: 20px;
+    
+    }
+    input {
+        background-color: transparent;
+        color: rgb(14, 14, 14);
+        border: 3px solid #000;
+        font-size: 20px;  
+        font-family: 'Montserrat';
+    }
+    
+    input:focus{
+        background-color:none;
+        outline-color: #000;
+        border-color: #000;
+        outline-width: 0ch;
+    }
+    
+    .button-submit {
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        text-align: center;  
+        width: 150px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        
+    }
+    
+
+}
+

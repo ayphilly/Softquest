@@ -1,0 +1,189 @@
+
+
+.thankyou{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    background-color: #ffffff;
+}
+
+.thank-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.thank-svg {
+    width: 100%;
+       
+}
+
+.thank-svg-im {
+    width: 500px;
+    height: 500px;
+    /*animation: prep  1s linear; */
+}
+
+.thank-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.thank-text h3  {
+   
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;    
+    color: #3d4246;
+}
+
+.thank-link {
+    
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    word-wrap: break-word; 
+    color: #989898;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+@keyframes prep {
+    0%   {margin-right: 2px;}
+    25%  {margin-right: 6px;}
+    50%  {margin-right: 8px;}
+    75%  {margin-right: 10px;}
+    100% {margin-right: 8px;}
+}
+.lefty {
+    margin-right: 8px;
+    animation: prep infinite  1s linear; 
+}
+.thank-link:hover {
+    color: #6d6c6c;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 320px) {
+    .thank-svg-im {
+        width: 400px;
+        height: 400px;
+        /*animation: prep  1s linear; */
+    }
+    
+    .thank-text {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .thank-text h3  {
+       
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 20px;    
+        color: #3d4246;
+    }
+        
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .thank-svg-im {
+        width: 450px;
+        height: 450px;
+        /*animation: prep  1s linear; */
+    }
+    
+    .thank-text {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .thank-text h3  {
+       
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 20px;    
+        color: #3d4246;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .thank-svg-im {
+        width: 400px;
+        height: 400px;
+        /*animation: prep  1s linear; */
+    }
+    
+    .thank-text {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .thank-text h3  {
+       
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 20px;    
+        color: #3d4246;
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .thank-svg-im {
+        width: 500px;
+        height: 500px;
+        /*animation: prep  1s linear; */
+    }
+    
+    .thank-text {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .thank-text h3  {
+       
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 20px;    
+        color: #3d4246;
+    }
+    
+    
+}
