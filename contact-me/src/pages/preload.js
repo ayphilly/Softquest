@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import './preload.css';
-import brand from '../svg/blanco.svg';
+import brand from '../svg/SQ.svg';
 
 export class Preload extends Component {
     

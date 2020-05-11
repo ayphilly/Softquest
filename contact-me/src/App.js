@@ -5,7 +5,7 @@ import {Contact} from './pages/contact'
 import {Error} from './pages/error'
 import {ThankYou} from './pages/thankyou'
 import history from './history'
-
+import {Footer} from './component/footer'
 class App extends Component {
   render () {
     return (
@@ -17,6 +17,7 @@ class App extends Component {
             <Route component={Error} />
           </Switch>
         </Router>
+        
         
       </div>
     );   

@@ -2,9 +2,14 @@ POST http://localhost:4000/api/contact
 Content-Type: application/json
 
 {   
-    "firstname": "Adewale",
+    "firstname": "atunde",
     "lastname": "Philemon",
     "email": "wale@test.com",
-    "number": "08115861199",
+    "number": "08015861199",
     "need": "i'm currently in need of a website and a mobile app, let's discuss"
 }
+
+###
+
+GET http://localhost:4000/api/contactS
+Content-Type: application/json

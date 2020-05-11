@@ -44,14 +44,16 @@ db = mongoose.connection;
 db.on('open', ()=> {
     console.log('db connected')
 })
-
+if (process.env.NODE_ENV === 'production'){
+    app.use(express.static('./contact-me/build'))
+}
 app.post('/api/contact', async (req, res)=> {
     params = req.body;
     var {firstname, lastname, email, number, need} = req.body;
     const {error} = ContactValidation(req.body);
 
     if(error) {
-        return res.status(400).send(error.details[0].message);
+        return res.status(400).send(error.message);
     }
 
     //Contact.insertOne({params})    
@@ -69,6 +71,15 @@ app.post('/api/contact', async (req, res)=> {
         res.status(400).send(`Error ${err}`)
     })
 
+});
+
+app.get('/api/contacts', (req, res)=> {
+    
+    Contact.find().then( response => {
+        res.status(200).send(response);
+    }).catch(err => {
+        res.status(400).send(err)
+    })
 })
 
 app.listen(port, () => {

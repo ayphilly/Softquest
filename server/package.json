@@ -2,10 +2,14 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd contact-me && npm run build",
+    "install-client": "cd contact-me && npm install",
+    "heroku-postuild":"npm run install-client && npm run build",
+    "client": "cd contact-me && npm start"
   },
   "keywords": [],
   "author": "",
